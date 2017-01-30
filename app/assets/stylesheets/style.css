@@ -210,7 +210,7 @@ td:last-child { padding-right:0;}
 .column-order li.item2 { width: 200px; background: url("column-dip2.png") no-repeat; color: #000; }
 .column-order li.item3 { width: 211px; background: url("column-dip3.png") no-repeat; }
 .t-ord { margin: 0 0 10px 0; font-size: 32px; line-height: 32px; font-family: 'myriad_procondensed'; }
-.column-order li p { margin: 0 0 11px 0; line-height: 18px; x; }
+.column-order li p { margin: 0 0 11px 0; line-height: 18px; }
 .column-order li .more {margin: 0 0 16px 0;}
 .column-order li .more a {color: #fff;}
 .column-order li.item2 .more a {color: #000;}
