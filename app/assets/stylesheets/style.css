@@ -257,26 +257,6 @@ td:last-child { padding-right:0;}
 .pusher {height: 110px;}
 
 
-/*footer*//*
-.footer { position: relative; margin: -60px auto 0 auto; padding: 0; height: 60px; min-width: 960px; background: #ff0000; overflow: hidden; }
-.cont-f { width: 960px; margin: 0 auto; padding: 16px 0 0 0; color: #fff; font-size: 12px; }
-.cont-f:after { clear: both; display: table; content: ''; }
-.copy {float: left;}
-.menu-f { float: right; overflow: hidden; }
-.menu-f ul { list-style-type: none; margin: 0 0 0 -14px; padding: 0; }
-.menu-f li { display: inline-block; vertical-align: top; margin: 0 0 0 4px; padding: 0 0 0 10px; line-height: normal; background: url(images/separ-m.png) no-repeat 0 2px; }
-.menu-f li a {color: #fff;}
-.menu-f li span { color: #fff; text-decoration: underline; }
-*/
-/*footer link*//*
-.menu_link {
-	float: right; width: 410px; margin-top: 5px;
-}
-.menu_link a {
-	color:#fff;
-	margin-left: 5px;
-}
-*/
 
 /*shop*/
 .breadcrumbs {margin: 0 0 20px 0;}
