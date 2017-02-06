@@ -79,13 +79,17 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
     height: 0;
 	visibility: hidden;
 }
-/** html .clearfix{//zoom: 1;}
-*:first-child+html .clearfix{//zoom: 1;}
+* html .clearfix {
+	zoom: 1;
+}
+*:first-child+html .clearfix {
+	zoom: 1;
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}*/
+}
 #wrapper {
 	font: 400 16px 'Circe-Regular', sans-serif;
 	max-width: 1920px;
