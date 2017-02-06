@@ -53,9 +53,9 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
 ._c{overflow:hidden}
 ._clr{clear:both}
 
- ._cf:after{visibility:hidden;display:block;content:'';clear:both;height:0;}
- * html ._cf{zoom:1}
-*:first-child+html ._cf{zoom:1}
+// ._cf:after{visibility:hidden;display:block;content:'';clear:both;height:0;}
+// * html ._cf{zoom:1}
+// *:first-child+html ._cf{zoom:1}
 ._cf  {
 
 	-height: 1%;
@@ -79,13 +79,13 @@ button::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="rese
     height: 0;
 	visibility: hidden;
 }
-* html .clearfix{//zoom: 1;}
+/** html .clearfix{//zoom: 1;}
 *:first-child+html .clearfix{//zoom: 1;}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+}*/
 #wrapper {
 	font: 400 16px 'Circe-Regular', sans-serif;
 	max-width: 1920px;
@@ -311,7 +311,7 @@ top: 146px;
 	color: #fff;
     font-size: 30px;
     font-family: Intro Black;
-    /* font-weight: 700; */
+
     text-shadow: 1px 1px 23px #000;
 }
 .top_slide_txt .txt span{
@@ -361,17 +361,15 @@ top: 146px;
 }
 .top_offer {
 	    display: inline-grid;
-    /* position: absolute; */
-    /* left: 0; */
-    /* top: 0; */
+
     background: #f00;
     margin-right: 2px;
-    /* width: 100%; */
+
     vertical-align: sub;
     text-align: center;
     color: #fff;
     padding: 5px 20px;
-    /* padding: 10px 4px 12px; */
+
 }
 .top_offer:hover, .leave-fb:hover { opacity:0.7}
 .top_offer img {
@@ -389,61 +387,53 @@ top: 146px;
 	font-size: 26px;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
  .list article {
   padding-top: 2.8rem;
   margin-bottom: 2.4rem;
   border-top: 1px solid #e3e6ea;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
  .list article:first-child {
   border-top: none;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
  .list article:last-child {
   margin-bottom: 0;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
  .list .text {
   padding-top: 1.3rem;
   line-height: 1.2;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
  .list .meta {
   padding-top: 2rem;
   font-weight: bold;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
  .list .meta .btn {
   padding-left: 2.8rem;
   padding-right: 2.8rem;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
  .list .meta .buy {
 
   line-height: 1.5;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
  .list .meta .buy img {
   margin-right: .8rem;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10,
+.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7,
+.col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
   float: left;
 }
@@ -451,107 +441,86 @@ top: 146px;
     text-align: right;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-12 {
   width: 100%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-11 {
   width: 91.66666667%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-10 {
   width: 83.33333333%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-9 {
   width: 75%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-8 {
   width: 66.66666667%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-7 {
   width: 58.33333333%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-6 {
   width: 50%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-5 {
   width: 41.66666667%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-4 {
   width: 33.33333333%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-3 {
   width: 25%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-2 {
   width: 16.66666667%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-1 {
   width: 8.33333333%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-pull-12 {
   right: 100%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-pull-11 {
   right: 91.66666667%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-pull-10 {
   right: 83.33333333%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-pull-9 {
   right: 75%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-pull-8 {
   right: 66.66666667%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-pull-7 {
   right: 58.33333333%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-pull-6 {
   right: 50%;
 }
 
-/* line 5, /Users/administrator/Desktop/crm/app/stylesheets/bootstrap.min.css */
 .col-xs-pull-5 {
   right: 41.66666667%;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
 .quickorder {
   background: url(/bg-1-f4ffb6e6f6bf28e2b4855cfb69f69395254f328dfc7ea434b0ad0d995a82cb50.jpg) no-repeat center -60px #bfbfbf;
   background-size: cover;
@@ -561,21 +530,18 @@ top: 146px;
   font-size: 1.8rem;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
 .quickorder h1 {
   color: #fff;
   text-shadow: 1px 2px #37495e;
   padding-bottom: 1rem;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
 .service-order {
   background: url(/bg-2-973d6ef79a9d2325ab5c36119e8d5ee93d69be90fb27ff4a5e1339bee71c8785.jpg) no-repeat center top #bfbfbf;
   background-size: cover;
   min-height: 800px;
 }
 
-/* line 1, /Users/administrator/Desktop/crm/app/stylesheets/home/style.scss */
 .service-order .breadcrumbs {
   padding: 9rem 0 2.5rem;
 }
@@ -647,7 +613,7 @@ top: 146px;
 }
 #main_form .jq-selectbox__dropdown li {
 	padding-left: 13px;
-	/*height: 30px;*/
+
 	line-height: 30px;
 	cursor: pointer;
 	font-size: 16px;
@@ -670,7 +636,7 @@ top: 146px;
     display: block;
     margin: 0 auto;
     font-size: 18px;
-    /* text-transform: uppercase; */
+
 }
 #main_form button:hover {
 	text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
@@ -766,7 +732,7 @@ top: 146px;
 }
 .find-work .jq-selectbox__dropdown li {
 	padding-left: 13px;
-	/*height: 30px;*/
+
 	line-height: 30px;
 	cursor: pointer;
 }
@@ -949,7 +915,7 @@ top: 146px;
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 30px;
-	/*margin-bottom: 30px;*/
+
 }
 .right-col {
 	width: 282px;
@@ -1069,7 +1035,7 @@ top: 146px;
 	float: left;
 	width: 275px;
 	height: 64px;
-	/*background: #fff url("next-arr.png") 97% 50% no-repeat;*/
+
 }
 .news-text p {
 	font-size: 14px;
@@ -1365,7 +1331,7 @@ font-size: 30px;
 	padding: 0;
 	line-height: 17px;
 }
-/*index responsive*/
+
 @media screen and (max-width: 1300px) {
 	.top_block ._l {
 		float: none;
@@ -1613,5 +1579,3 @@ font-size: 30px;
 		width: 100%;
 	}
 }
-
-/* End */
